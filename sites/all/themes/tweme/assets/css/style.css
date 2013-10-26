@@ -1,0 +1,620 @@
+#featured {
+  background-color: whitesmoke;
+  border-bottom: 1px solid #e5e5e5;
+}
+#featured p u {
+  text-decoration: none;
+  border-bottom: 2px solid grey;
+}
+#featured p u a {
+  text-decoration: none;
+}
+#carousel {
+  height: 300px;
+  margin-bottom: 0;
+}
+#carousel .item {
+  height: 240px;
+  padding: 60px 10% 0 10%;
+  text-align: center;
+  width: 80%;
+}
+#carousel .item h1 {
+  font-size: 60px;
+  font-weight: 200;
+  line-height: 1;
+  letter-spacing: -1px;  
+  margin-bottom: 20px;
+}
+#carousel .item p {
+  font-size: 24px;
+  font-weight: 200;
+  line-height: 1.25;
+  margin-bottom: 20px;
+}
+#carousel .carousel-control {
+  background-color: transparent;
+  border: 0;
+  color: #333;
+  font-size: 100px;
+  line-height: 100px;
+  top: 50%;
+  height: 100px;
+  margin-top: -50px;
+}
+#header {
+  height:100px;
+  padding-top: 15px;
+}
+#main {
+}
+#main .block {
+  margin-bottom: 30px;
+}
+#sidebar-first > .region {
+  padding-right: 10px;
+}
+#sidebar-second > .region {
+  padding-left: 10px;
+}
+.sidebar input.form-text {
+  width: 70%;
+}
+#footer {
+}
+.footer-links a {
+  margin-left: 15px;
+}
+.block > h2 {
+  text-transform: uppercase;
+  color: #999;
+  font-size: 1.4em;
+  font-weight: normal;
+}
+
+
+/* Tags */
+
+.field-tags {
+  margin: 2em 0 2em 0;
+}
+.field-tags a.badge {
+  background: #08c;
+  border: 1px solid #08c;
+  margin-bottom: .4em;
+}
+.field-tags a.badge:not(:hover) {
+  background: snow;
+  border: 1px solid #ddd;
+  border-bottom-color: #bbb;
+  color: grey;
+  text-shadow: none;
+}
+
+/* Cutom CSS */
+#page-wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1170px;
+}
+
+body{
+	background:url("../images/cream_dust.png") repeat scroll 0 0 #656565
+}
+
+.fright{
+	float:right;
+}
+
+.fleft{
+	float:left;
+}
+
+header ul li{
+	display:inline;
+	margin-left:15px;
+}
+
+header nav ul li a{
+	color:#666666;
+	font-size:12px;
+}
+
+header .menu ul.sub-menu li a
+{
+	color:#FFFFFF;
+	font-size:12px;
+	font-family: arial;
+}
+header nav ul li a:hover{
+	color:#EF3E33;
+}
+
+ul{
+	margin:0;
+	padding:0;
+}
+
+ul.menu {
+	position: relative;
+}
+
+ul.menu li{
+	margin:0;
+}
+
+ul.main-menu li.hover, ul.main-menu li:hover{
+	position:relative;
+	background-color:#EF3E33;
+	/*background-color:#47CA9B;
+	background-color:#D82664;*/
+	border-radius: 6px 6px 0 0;
+	color:#FFFFFF;
+	padding-bottom:12px;
+}
+
+ul.sub-menu li.hover, ul.sub-menu li:hover{
+	background-color:#FDECEB;
+	color:#EF3E33;
+	padding-bottom:0;
+	border-radius:0;
+}
+
+ul.sub-menu li.hover a{
+	color:#EF3E33 !important;
+}
+
+ul.menu ul.courses{
+	width:450px;
+	left:-205px;
+}
+
+ul.menu ul {
+	width: 220px;
+	visibility: hidden;
+	position: absolute;
+	top: 100%;
+	z-index:9999;
+	left: 0;
+}
+
+.panel-navigation {
+	height:35px;
+}
+
+.panel-navigation ul li.primary{
+	display:inline-block;
+	padding:0 0 13px;
+}
+
+.panel-navigation ul li.secondry{
+	display:block;
+	font-weight:normal;
+}
+
+ul.menu .primary span{
+	line-height:35px;
+}
+
+.panel-navigation ul li.active-trail a{
+	color:#FFFFFF;
+	background-color: #EF3E33;
+	/*background-color:#47CA9B;
+	background-color:#D82664;*/
+    border-radius: 6px 6px 6px 6px;
+	padding:5px 20px 9px;
+}
+
+ul.menu ul.sub-menu{
+    background-color: #EF3E33;
+   	/*background-color:#47CA9B;
+	background-color:#D82664;*/
+    border-radius: 0 8px 8px 8px;
+    padding: 10px 0;
+
+}
+
+.panel-navigation  ul li ul li {
+    font-size: 13px Arial;
+    height: auto;
+    margin-left: 0;
+    position: relative;
+    transition: background-color 0.2s linear 0s;
+    white-space: nowrap;
+	z-index:50;
+	display:block;
+}
+
+.panel-navigation  ul li a, .panel-navigation  ul li.nolink span{
+    font-family: PT Serif;
+    font-size: 18px;
+    font-weight: bold;
+    height: 35px;
+    padding:5px 20px 9px;
+    text-decoration: none;
+}
+
+h1.title{
+    color: #EF3E33;
+    font-family: PT Serif;
+    font-weight: normal;
+    margin: 20px 0;
+}
+
+.front-page-blocks .title{
+	background:url("../images/facet-title-bg.png") repeat-x scroll 0 0 rgba(0, 0, 0, 0);
+	color:#FFFFFF;
+	height:30px;
+	padding:0 10px;
+}
+.front-page-blocks .title span{
+	vertical-align:middle;
+}
+
+.front-page-blocks .block-wrapper{
+    background-color: #3A3A3C;
+    position: relative;
+}
+.front-page-blocks .left{
+	float:left;
+	width:180px;
+	margin-right:10px;
+}
+
+.front-page-blocks  .panel-content{
+	color:#FFFFFF;
+	padding:10px;
+}
+#container{
+	background: url("../images/bg.png") repeat-x scroll 0 100px #F9F9FA;
+}
+
+nav#primary{
+	text-align:right;
+}
+
+#logo-wrapper{
+	margin-top:25px;
+	float:left;
+}
+
+#logo {
+    height: 50px;
+    left:0px;
+    position: relative;
+    top: 0;
+    width: 160px;
+    z-index: 15;
+}
+
+.header-wrapper{
+	position:relative;
+}
+
+#top-menu-wrapper{
+	float:right;
+	width:850px;
+	margin-left:10px;
+}
+
+#top-menu-wrapper #menu{
+    margin-bottom: 16px;
+    text-align: right;
+    width: 700px;
+}
+
+.clear{
+	clear:both;
+}
+
+#main-menu li.active-trail {
+	/*background: url("//www.eurocentres.com/sites/all/themes/eurocentres/images/menu-arrow.png") no-repeat scroll 50% 100% rgba(0, 0, 0, 0);*/
+    padding: 0 0 10px;
+}
+
+footer{
+    background: url("../images/simple_dashed.png") repeat scroll center center #3D3E40;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1) inset;
+    color: #6C6F70;
+    padding: 30px 0;
+    text-align: center;
+}
+footer h4 {
+    font-size: 1.8em;
+    text-align: center;
+}
+
+footer h4 a{
+	color:#48CA9B;
+}
+
+footer div.row{
+	border:1px solid #575A5D;
+	margin-top:25px;
+	margin-bottom:25px;
+	border-width:1px 0 0;
+}
+
+footer h3{
+	font-size:14px;
+	padding-bottom:70px;
+}
+
+#sidebar-first .region{
+    border: 0 none rgba(0, 0, 0, 0);
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: none;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    overflow: hidden;
+	padding-right:0;
+}
+
+#sidebar-first .region .content{
+    color: #666666;
+    font-size: 12px;
+    margin-top: -4px;
+    padding: 15px 10px 5px;
+    border-radius: 6px 6px 6px 6px;
+    border-style: none solid solid;
+    border-width: 0 1px 1px;
+	border-color:rgba(0, 0, 0, 0) #CCCCCC #CCCCCC;
+	background: none repeat scroll 0 0 #FFFFFF;
+}
+
+#sidebar-first .block h2{
+    background-clip: padding-box;
+    border-radius: 6px 6px 0 0;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+    color: #FFFFFF;
+    font: bold 13px/17px Arial,Helvetica,sans-serif;
+    margin-bottom: 0;
+    padding: 15px 10px;
+    position: relative;
+    text-shadow: none;
+    z-index: 5;
+	background:#333333;
+	color:#FFFFFF;
+}
+
+.main-content-wrapper{
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-left: 1px solid #D9D9D9;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+    margin-bottom: 50px;
+	padding:10px 20px;
+    position: relative;
+	color:#666666;
+}
+
+.main-content-wrapper .second-title{
+    color: #666666;
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+#main .container{
+	width:100% !important;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#logo a {
+    color: #EF3E33;
+    font-family: 'Pacifico',cursive;
+    font-size: 3em;
+    margin-top: 20px;
+    text-transform: none;
+}
+
+#logo a:hover {
+	text-decoration:none;
+}
+
+.container {
+    max-width: 1170px !important;
+	width:1170px !important;
+}
+
+.footer-buttons{
+    z-index: 9998;
+	margin:0 20px 20px 0;
+	box-shadow:5px 5px 10px rgba(0, 0, 0, 0.2);
+	padding:9px;
+	width:200px;
+	position:fixed;
+}
+
+.footer-button-get-demo{
+	bottom:17px;
+	right:11%;
+}
+
+.footer-buttons-normal-view{
+    background-color: #333333;
+    border: 1px solid #333333;
+	color: #FFFFFF;
+	opacity: 0.8;
+}
+
+.footer-buttons-detailed-view{
+	background:#FFFFFF;
+	border:1px solid #D9D9D9;
+	opacity:1;
+	color:#808080;
+}
+
+.footer-buttons-detailed-view .arrow{
+    background: url("//www.eurocentres.com/sites/all/themes/eurocentres/images/white-arrow.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    bottom: -7px;
+    height: 7px;
+    left: 49%;
+    position: absolute;
+    width: 11px;
+}
+
+.footer-button-title {
+    font-family: arial;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.footer-buttons-normal-view .field-company {
+	margin-bottom:9px;
+}
+
+.footer-buttons-normal-view .footer-button-body-hidden{
+	display:none;
+}
+
+.footer-buttons-normal-view .arrow{
+    background: url("//www.eurocentres.com/sites/all/themes/eurocentres/images/dark-arrow.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    bottom: -7px;
+    height: 7px;
+    left: 49%;
+    position: absolute;
+    width: 11px;
+}
+
+.footer-buttons .arrowt{
+    background: url("//www.eurocentres.com/sites/all/themes/eurocentres/images/white-arrow-t.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 7px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 11px;
+}
+
+.footer-panel{
+	color:#FFFFFF;
+	position:fixed;
+	bottom:0;
+}
+
+.footer-nav-bar{
+    background: -moz-linear-gradient(center top , #383839, #1D1D1E) repeat scroll 0 0 rgba(0, 0, 0, 0);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #383839), color-stop(1, #1D1D1E));
+	background-image: -ms-linear-gradient(top, #383839 0%, #1D1D1E 100%);
+	background-image: -o-linear-gradient(top, #383839 0%, #1D1D1E 100%);
+	progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#383839', endColorstr='#1D1D1E'); /* IE6 & IE7 */
+    height: 30px;
+	width:1170px;
+    position: relative;
+	z-index:10000;
+	color:#ffffff;
+}
+
+.bottom-transparent-line {
+    background-color: #47CA9B;
+    bottom: 0;
+    height: 110px;
+    left: 0;
+    opacity: 0.34;
+    position: absolute;
+    width: 100%
+}
+
+.footer-buttons-detailed-view .footer-button-body-hidden{
+    color: #656565;
+    display: block;
+    font-size: 13px;
+    line-height: 1.29;
+    padding: 7px 0;
+    text-shadow: none;
+}
+
+
+a.button-wrap {
+    background: none repeat scroll 0 0 #ED1C24;
+    border: 0 none;
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 1px 1px 2px #3A3A3C;
+    color: #FFFFFF !important;
+    cursor: pointer;
+    font: bold 14px/25px Arial;
+    height: 25px;
+    margin: 0;
+    outline: 0 none;
+    padding: 0 10px;
+    position: relative;
+    text-shadow: 0 -1px 0 #3A3A3C;
+    transition: background-color 0.5s linear 0s;
+	display:inline-block;
+}
+
+a.button-wrap:hover{
+	/*background:#E13533;*/
+	background:#C11E2A;
+	transition:color 0.5s linear 0s;
+	text-decoration:none;
+}
+
+.footer-buttons-detailed-view .action-buttons{
+	margin-top:20px;
+	text-align:center;
+}
+
+
+.footer-button-join-to-learn{
+	bottom:17px;
+	left:12%;
+}
+
+
+.footer-button-join-to-teach{
+	bottom:17px;
+	left:43%;
+}
+
+.footer-nav-bar .panel-content{
+	float:right;
+	margin-right:10px;
+}
+
+.social-links ul li, .social-links ul li a {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+}
+
+.social-links ul li a {
+    text-indent: -9999px;
+}
+
+.social-links ul li a.link-twitter {
+    background: url("../images/link-twitter.png") no-repeat scroll 50% 50% rgba(0, 0, 0, 0);
+}
+
+
+.social-links ul li a.link-facebook {
+    background: url("../images/link-facebook.png") no-repeat scroll 50% 50% rgba(0, 0, 0, 0);
+}
+
+.social-links ul li a.link-skype {
+    background: url("../images/link-skype.png") no-repeat scroll 50% 50% rgba(0, 0, 0, 0);
+}
+
+.social-links ul li a.link-phone {
+    background: url("../images/link-phone.png") no-repeat scroll 50% 50% rgba(0, 0, 0, 0);
+}
+
+.social-links ul li a.link-email {
+    background: url("../images/link-mail.png") no-repeat scroll 50% 50% rgba(0, 0, 0, 0);
+}
+
+.sing-in-button{
+    background: linear-gradient(to bottom, #FF87A3 0%, #E03B59 100%) repeat scroll 0 100% / auto 200% rgba(0, 0, 0, 0);
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
+    color: #FFFFFF;
+    font-weight: bold;
+    padding: 10px 30px;
+    position: absolute;
+    right: 0;
+    text-transform: uppercase;
+    top: 37px;
+    transition: background-position 0.2s ease 0s;
+}

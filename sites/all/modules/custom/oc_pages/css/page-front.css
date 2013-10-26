@@ -1,0 +1,136 @@
+.full-width-image-1{
+	background:url("../images/hero.jpg") repeat scroll center center;
+	color:#FFFFFF;
+	padding:35px 0;
+	text-align:center;
+	margin-top:-14px;
+	height:450px;
+	position:relative;
+	background-repeat:no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.hero-wrapper {
+    display: inline-block;
+    position: relative;
+    text-shadow: 0 3px 7px rgba(0, 0, 0, 0.6);
+    z-index: 100;
+	width:700px;
+}
+
+h1, h2, h3 {
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
+    font-weight: 500 !important;
+    line-height: 1.1 !important;
+}
+
+.hero-wrapper h1 {
+    font-size: 4.4em !important;
+	margin-top:85px;
+}
+
+.full-width-text{
+	background:none repeat scroll 0 0 #33AC80;
+	color:#FFFFFF;
+    padding-bottom: 45px;
+    padding-top: 25px;
+	background-repeat:no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.hero-wrapper h2 {
+	margin-bottom: 130px !important;
+}
+
+#container{
+	background:none !important;
+}
+
+.section-heading {
+    font-size: 3.2em;
+    margin: 30px 0;
+}
+
+.brand-white {
+    color: #FFFFFF;
+    font-family: 'Pacifico',cursive;
+}
+
+.section-para {
+    margin: 20px 0;
+}
+
+p.heading {
+    font-size: 21px;
+}
+
+p.section-para-teach-and-learn,div.share-means{
+    margin: 20px 0;
+	line-height:1.2;
+	font-size:17px;
+}
+
+.full-width-image-2{
+    background: none repeat scroll 0 0 #D82664;
+    border-top: 1px solid #1D4F3C;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1) inset;
+    height: 250px;
+    text-align: center;
+}
+
+.full-width-image-2 h3{
+    color: #FFFFFF;
+    font-family: 'Pacifico',cursive !important;
+    font-size: 4em;
+    padding-top: 30px;
+}
+
+.footer-buttons-detailed-view .get-free-demo-image{
+	background: url("../images/get-free-demo.jpg") repeat scroll center center #3D3E40;
+	margin-bottom:10px;
+	width:200px;
+	height:130px;
+}
+
+.footer-buttons-detailed-view .get-join-learn-image{
+	background: url("../images/join-student.jpg") repeat scroll center center #3D3E40;
+	margin-bottom:10px;
+	width:200px;
+	height:130px;
+}
+
+.footer-buttons-detailed-view .get-join-teach-image{
+	background: url("../images/join-teacher.jpg") repeat scroll center center #3D3E40;
+	margin-bottom:10px;
+	width:200px;
+	height:130px;
+}
+
+.panel-content .tooltip{
+	font-size:14px;
+}
+
+.footer-nav-bar span.left{
+    float: left;
+    font-size: 12px;
+    margin-top: 6px;
+    padding-left: 10px;
+}
+
+.footer-nav-bar span.right {
+    float: left;
+    font-size: 12px;
+    margin-left: 202px;
+    margin-top: 6px;
+}

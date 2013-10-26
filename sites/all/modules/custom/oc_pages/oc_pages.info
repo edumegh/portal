@@ -1,0 +1,5 @@
+name = oc_pages
+description = Manage custom pages for open course
+package = Open Course
+core = 7.x
+version = VERSION

@@ -1,0 +1,23 @@
+<?php
+/**
+ * Implements hook_menu().
+ */
+function oc_pages_menu()
+{
+    $items['home'] = array(
+        'title' => 'Home',
+        'page callback' => 'oc_pages_home_view',
+        'access callback' => true,
+    );
+
+	return $items;
+}
+
+function oc_pages_home_view()
+{
+	$module_path= drupal_get_path('module', 'oc_pages');
+	drupal_add_css($module_path . '/css/page-front.css');
+	drupal_add_js($module_path . '/js/page-front.js');
+
+	return '';
+}
